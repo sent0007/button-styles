@@ -29,11 +29,12 @@ div {
 .btn-small {
   font-size: .875rem;
 }
+
 .btn-big {
   font-size: 1.5rem;
 }
 
-.btn-subtle{
+.btn-subtle {
   background-color: #ccc;
 }
 
@@ -43,7 +44,9 @@ div {
 
 .btn-ghost {
   background-color: #fff;
-  border: 3px solid #333;
+  border-width: 3px;
+  border-radius: 8px;
+  border-style: solid;
   color: #666;
 }
 
