@@ -46,12 +46,14 @@ div {
   background-color: #fff;
   border-width: 3px;
   border-style: solid;
+  border-color: #000;
   color: #666;
 }
 
 .btn-ghost:hover {
   background-color: #666;
   color: #fff;
+  border-color: #666;
 }
 
 .btn-warning {
