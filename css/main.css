@@ -7,13 +7,13 @@ html {
   box-sizing: inherit;
 }
 
-
 div {
   padding: .5rem;
   text-align: center;
 }
 
 .btn {
+  display: inline;
   padding: .4em .75em .3em;
   text-decoration: none;
   border-radius: 8px;
@@ -22,10 +22,13 @@ div {
   color: #fff;
 }
 
+.btn:hover {
+  background-color: #000;
+}
+
 .btn-small {
   font-size: .875rem;
 }
-
 .btn-big {
   font-size: 1.5rem;
 }
@@ -48,6 +51,11 @@ div {
   background-color: #666;
   color: #fff;
 }
+
 .btn-warning {
   background-color: #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
